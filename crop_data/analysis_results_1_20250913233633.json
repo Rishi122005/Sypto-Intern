@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-09-13T23:36:33.350441",
+  "quadrant_id": 1,
+  "photo_path": "test_crop.jpg",
+  "growth_analysis": {
+    "status": "baseline",
+    "message": "First photo recorded as baseline for future comparisons",
+    "quadrant": 1,
+    "timestamp": "20250913_233632"
+  },
+  "disease_analysis": {
+    "predicted_class": "stress",
+    "confidence": 0.3687469959259033,
+    "all_probabilities": {
+      "healthy": 0.24101296067237854,
+      "pest": 0.13902230560779572,
+      "disease": 0.2512177526950836,
+      "stress": 0.3687469959259033
+    }
+  },
+  "advisory": "Plant stress detected (possibly nutrient deficiency). Check soil moisture and consider balanced fertilizer application. [Low confidence (36.9%) - consider getting a second opinion]",
+  "system_status": "analysis_complete"
+}

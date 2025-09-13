@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-09-13T23:56:58.903018",
+  "quadrant_id": 1,
+  "photo_path": "test_crop.jpg",
+  "growth_analysis": {
+    "status": "minimal_change",
+    "similarity_score": 0.9999998807907104,
+    "message": "Minimal growth detected. Continue monitoring.",
+    "quadrant": 1,
+    "timestamp": "20250913_235658",
+    "comparison_with": "features_20250913_235545"
+  },
+  "disease_analysis": {
+    "predicted_class": "healthy",
+    "confidence": 0.4621070921421051,
+    "all_probabilities": {
+      "healthy": 0.4621070921421051,
+      "pest": 0.10416398197412491,
+      "disease": 0.18826396763324738,
+      "stress": 0.24546492099761963
+    }
+  },
+  "advisory": "No action needed, crop is healthy. Continue current care routine. [Low confidence (46.2%) - consider getting a second opinion]",
+  "system_status": "analysis_complete"
+}

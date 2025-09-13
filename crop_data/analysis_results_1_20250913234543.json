@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-09-13T23:45:43.314294",
+  "quadrant_id": 1,
+  "photo_path": "test_crop.jpg",
+  "growth_analysis": {
+    "status": "major_change",
+    "similarity_score": 0.1916755884885788,
+    "message": "Major changes detected. Verify if this is expected growth or potential issues.",
+    "quadrant": 1,
+    "timestamp": "20250913_234542",
+    "comparison_with": "features_20250913_234338"
+  },
+  "disease_analysis": {
+    "predicted_class": "pest",
+    "confidence": 0.3008993864059448,
+    "all_probabilities": {
+      "healthy": 0.23482783138751984,
+      "pest": 0.3008993864059448,
+      "disease": 0.22746534645557404,
+      "stress": 0.23680740594863892
+    }
+  },
+  "advisory": "Pest detected! Apply neem oil spray in the evening. Monitor for 3-5 days. [Low confidence (30.1%) - consider getting a second opinion]",
+  "system_status": "analysis_complete"
+}

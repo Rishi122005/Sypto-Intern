@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-09-13T23:41:36.824555",
+  "quadrant_id": 1,
+  "photo_path": "test_crop.jpg",
+  "growth_analysis": {
+    "status": "major_change",
+    "similarity_score": 0.16206149756908417,
+    "message": "Major changes detected. Verify if this is expected growth or potential issues.",
+    "quadrant": 1,
+    "timestamp": "20250913_234136",
+    "comparison_with": "features_20250913_233944"
+  },
+  "disease_analysis": {
+    "predicted_class": "disease",
+    "confidence": 0.36180415749549866,
+    "all_probabilities": {
+      "healthy": 0.21980588138103485,
+      "pest": 0.1391117423772812,
+      "disease": 0.36180415749549866,
+      "stress": 0.2792782485485077
+    }
+  },
+  "advisory": "Disease symptoms detected! Apply appropriate fungicide within 2 days. Isolate affected plants if possible. [Low confidence (36.2%) - consider getting a second opinion]",
+  "system_status": "analysis_complete"
+}
